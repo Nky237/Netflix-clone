@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+}
+.container >section{
+    border: 1px solid white;
+    max-width: 100%;
+}
+.container .hero{
+    background-image: url(../assets/hero-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.nav2{
+    display: flex;
+}
+.nav2 .icon-tab{
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.icon-tab i{
+    color: white;
+}
+nav button{
+    background-color: #E50914;
+    color: white;
+    height: 50px;
+    width: 90px;
+}
+/* TEXT SECTION */
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    line-height: 2rem;
+    font-weight: 800;
+    
+}
+.text h1{
+    font-size: 40px;
+    text-align: center;
+    width: 25%;
+    font-weight: 800;
+    line-height: 3rem;
+}
+.text input{
+    min-width: 400px;
+    height: 50px;
+}
+.text button{
+    background-color: #E50914;
+    height: 50px;
+    color: white;
+    width: 150px;
+}
+.text-btn{
+display: flex;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    gap: 27px;
+    background-color: black;
+    color: white;
+    min-height: 350px;
+    
+}
+.item-img{
+    height: 260px;
+    width: 350px;
+}
+.item-img img{
+    max-width: 100%;
+    object-fit: contain;
+}
+.item-text{
+    width: 15%;
+    line-height: 1.7rem;
+}
+/* FAQ SECTION */
+.faq{
+   background-color: black;
+   color: white;
+   min-height: 590px;
+
+}
+.faq-cont{
+    margin: auto;
+    width: 40%;
+    padding-bottom: 40px;
+}
+.faq-cont h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.faq-cont >div{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #303030;
+    margin: 15px 0;
+    align-items: center;
+}
+.faq-cont input{
+    min-width: 400px;
+    height: 50px;
+}
+.faq-cont button{
+    background-color: #E50914;
+    height: 50px;
+    color: white;
+    width: 150px;
+}
+.faq-cont p{
+    padding-top: 20px;
+}
