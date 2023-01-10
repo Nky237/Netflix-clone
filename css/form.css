@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-image: url(../assets/hero-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+.logo{
+    padding: 20px;
+}
+form{
+    width: 26%;
+    margin:  20px auto 50px auto;
+    min-height: 550px;
+    padding-top: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.form-cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    color: #737373;
+}.form-cont h2{
+    color: white;
+}
+.form-cont input{
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.form-cont button{
+    height: 50px;
+    width: 100%;
+    background-color: #E50914 ;
+    margin-top: 20px;
+}
+.form-cont .forget{
+    display: flex;
+    justify-content: space-between;
+}
+.form-cont .icon{
+    display: flex;
+}
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+}
+footer h3{
+    margin: auto;
+    padding: 20px 0;
+    width: 50%;
+    color: white;
+}
+li{
+    list-style: none;
+    padding: 10px 0;
+    
+}
+li a{
+    color: #737373;;
+}
+footer main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+footer .icon-tab{
+    margin: 20px 0px 10px 0;
+    border: 1px solid white;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px){
+    form{
+        width: 85%;
+    }
+    footer main{
+        flex-direction: column;
+        width: 60%;
+    }
+}
