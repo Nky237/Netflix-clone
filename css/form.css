@@ -53,6 +53,9 @@ form{
     display: flex;
     justify-content: space-between;
 }
+.forget a, .icon a{
+    color: #737373;
+}
 .form-cont .icon{
     display: flex;
 }
