@@ -7,7 +7,7 @@
     display: grid;
 }
 .container >section{
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     max-width: 100%;
 }
 .container .hero{
@@ -135,4 +135,31 @@ display: flex;
 }
 .faq-cont p{
     padding-top: 20px;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+footer h3{
+    margin: auto;
+    padding: 20px 0;
+    width: 50%;
+}
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+footer main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+footer .icon-tab{
+    margin: 20px 0px 10px 0;
+    border: 1px solid white;
+    padding: 20px;
 }
