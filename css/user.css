@@ -103,11 +103,10 @@ footer{
     background-color: black;
     color: white;
 }
-footer h3{
-    margin: auto;
-    padding: 20px 0;
-    width: 50%;
+footer i{
     color: white !important;
+    font-size: 25px !important;
+    padding: 0 5px;
 }
 footer li{
     list-style: none;
