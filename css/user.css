@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.container{
+    display: grid;
+    color: white;
+    border: 1px solid black;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+nav ul li a{
+    color: white;
+}
+.end{
+    width: 20%;
+}
+
+/* HERO SECTION */
+.hero{
+    min-height: 600px;
+    background: url(../assets/userbg.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text{
+    width: 30%;
+    padding: 0 30px;
+}
+.text p{
+    font-size: 22px;
+    padding: 10px 0;
+}
+.text h3{
+    font-weight: 900;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.text button{
+    height: 50px;
+    padding: 10px 20px;
+    
+
+}
+.text button:nth-child(2){
+    background: #585955;
+    margin: 10px 5px;
+
+    
+}
+.text button:nth-child(2) a{
+    color: white;
+    
+}
+.land-pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: center;
+}
+.land-pic img{
+    width: 18.5%;
+    padding: 0 10px 20px 0;
+}
+.gallery{
+    background-color: black;
+    min-height: 500px;
+    padding-top: 40px;
+}
+.gallery >div{
+    padding: 0 0 20px 0;
+}
+.gallery p{
+    margin: 0 30px;
+}
+.land-pic.dot img{
+    width: 15%;
+    height: 160px;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+footer h3{
+    margin: auto;
+    padding: 20px 0;
+    width: 50%;
+    color: white !important;
+}
+footer li{
+    list-style: none;
+    padding: 10px 0;
+}
+footer main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+footer .icon-tab{
+    margin: 20px 0px 10px 0;
+    border: 1px solid white;
+    padding: 20px;
+}
