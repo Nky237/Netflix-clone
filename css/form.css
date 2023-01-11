@@ -48,6 +48,8 @@ form{
     width: 100%;
     background-color: #E50914 ;
     margin-top: 20px;
+}.form-cont button a{
+    color: white;
 }
 .form-cont .forget{
     display: flex;
