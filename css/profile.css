@@ -25,6 +25,7 @@
 
 figure{
     width: 15%;
+    text-align: center;
 }
  h1{
     color: white;
@@ -32,7 +33,6 @@ figure{
 }
 figcaption{
     color: #585955;
-    text-align: center;
 }
 .btn{
     border: 1px solid #585955;

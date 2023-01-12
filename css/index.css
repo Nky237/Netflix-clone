@@ -40,11 +40,12 @@ nav{
 }
 .nav2 .icon-tab{
     height: 50px;
-    width: 90px;
+    width: 120px;
     border: 1px solid white;
     display: flex;
     align-items: center;
     margin: 0 20px;
+    padding: 0 20px;
 }
 .icon-tab i{
     color: white;
@@ -128,11 +129,18 @@ display: flex;
 .faq-cont >div{
     border: 1px solid white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 15px;
     background-color: #303030;
     margin: 15px 0;
+    
+}
+.accord{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    align-items: center;
+    cursor: pointer;
 }
 .faq-cont input{
     min-width: 400px;
@@ -146,6 +154,15 @@ display: flex;
 }
 .faq-cont p{
     padding-top: 20px;
+}
+/* ACCORDION */
+.is-open + .quest{
+    display: block;
+       
+}
+.quest{
+    display: none;
+    transition: all 0.5s;
 }
 /* FOOTER */
 footer{
