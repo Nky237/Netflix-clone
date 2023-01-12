@@ -19,12 +19,18 @@
         <figure class="logo">
             <img src="./assets/logo.svg" alt="">
         </figure>
-        <form action="">
+        <form action="./user.html">
             <div class="form-cont">
                 <h2>Sign In</h2>
-                <input type="text" placeholder="Email or phone number">
-                <input type="text" placeholder="Password">
-                <a href="./user.html" class="btn">Sign In</a>
+                <div>
+                    <input type="text" placeholder="Email or phone number" class="emaily">
+                    <p class="danger" id="err"></p>
+                </div>
+                <div>
+                    <input type="text" type="password" placeholder="Password" class="passy">
+                    <p class="passDanger" id="err"></p>
+                </div>
+                <button class="form-btn">Sign In</button>
                 <div class="forget">
                     <a href="">Remember me</a>
                     <a href="">Need help?</a>
@@ -69,5 +75,7 @@
             </main>
         </footer>
     </div>
+
+    <script src="./js/form.js"></script>
 </body>
 </html>

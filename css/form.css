@@ -49,15 +49,21 @@ form{
     background-color: #333333;
     margin: 20px 0;
     padding: 0 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 21px;
 }
-.form-cont .btn{
-    height: 50px;
+.form-cont button{
+    height: 50px !important;
     width: 100%;
-    background-color: #E50914 ;
+    background-color: #E50914 !important ;
     margin-top: 20px;
     color: white;
     text-align: center;
-    padding-top: 10px;
+
+}
+.form-cont .form-cont a{
+    color: #fff;
 }
 .form-cont .forget{
     display: flex;
@@ -68,6 +74,11 @@ form{
 }
 .form-cont .icon{
     display: flex;
+}
+#err{
+    text-align: center;
+    color: red;
+    font-style: italic;
 }
 
 footer{
