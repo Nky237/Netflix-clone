@@ -7,6 +7,13 @@
 a{
     text-decoration: none;
 }
+select {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    border: none;
+  }
+
 
 .container{
     background-image: url(../assets/hero-img.svg);
@@ -43,13 +50,14 @@ form{
     margin: 20px 0;
     padding: 0 20px;
 }
-.form-cont button{
+.form-cont .btn{
     height: 50px;
     width: 100%;
     background-color: #E50914 ;
     margin-top: 20px;
-}.form-cont button a{
     color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 .form-cont .forget{
     display: flex;
