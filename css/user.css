@@ -95,11 +95,11 @@ nav ul li a{
     
 }
 .land-pic{
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
 }
-.land-pic img{
-    width: 20%;
+.swiper-slide img{
+    width: 100%;
     padding-right: 20px;
 }
 .gallery-content{
@@ -113,6 +113,9 @@ nav ul li a{
     
     
 }
+/* .swiper-slide{
+    width: 20%;
+} */
 .swiper-button-prev, .swiper-button-next{
     color: white !important;
 }
@@ -227,6 +230,21 @@ footer .icon-tab{
     footer ul{
         padding: 20px 0;
     }
+
     
     
+}
+@media only screen and (max-width:500px){
+    .swiper-slide{
+        margin: 0;
+    }
+    .swiper-slide{
+        margin: auto;
+    }
+    .swiper-slide img{
+        width: 90%;
+    }
+    .swiper-wrapper{
+        text-align: center;
+    }
 }
