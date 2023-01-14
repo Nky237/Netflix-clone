@@ -11,6 +11,7 @@ a{text-decoration: none;}
     color: white;
     border: 1px solid black;
     max-width: 100%;
+    position: relative;
 }
 nav{
     max-width: 100%;
@@ -55,7 +56,7 @@ nav ul li a{
 
 /* HERO SECTION */
 .hero{
-    min-height: 600px;
+    min-height: 500px;
     background: url(../assets/userbg.svg);
     background-position: top;
     background-repeat: no-repeat;
@@ -67,7 +68,7 @@ nav ul li a{
 }
 .text{
     width: 30%;
-    padding: 0 30px;
+    padding: 40px 30px 0 30px;
 }
 .text p{
     font-size: 22px;
@@ -85,7 +86,7 @@ nav ul li a{
 
 }
 .text button:nth-child(2){
-    background: #585955;
+    background: linear-gradient(rgba(90, 83, 83, 0.7), rgba(113, 107, 107, 0.7));
     margin: 10px 5px;
 
     
@@ -94,30 +95,53 @@ nav ul li a{
     color: white;
     
 }
-.land-pic{
-    display: flex !important;
-    flex-wrap: wrap;
-}
-.swiper-slide img{
-    width: 100%;
-    padding-right: 20px;
-}
-.gallery-content{
-    margin: 10px 40px;
-    padding-top: 20px;
-}
-/* SWIPER */
-.swiper{
-    width: 100%;
-    background-color: black;
-    
-    
-}
+/* .posi{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+    position: absolute;
+    top: -190px;
+} */
+
+
+
 /* .swiper-slide{
     width: 20%;
 } */
 .swiper-button-prev, .swiper-button-next{
     color: white !important;
+    font-weight: 900;
+}
+.swiper-slide img{
+    width: 100%;
+    padding-right: 20px;
+}
+
+/* SWIPER */
+.swiper{
+    width: 100%;
+    background-color: black;
+   
+    
+    
+}
+.swiper p{
+    padding: 10px 0;
+}
+.first .swiper-slide{
+    height: 200px !important;
+ 
+}
+.first .swiper-slide img{
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 200px;
+}
+.tall .swiper-slide{
+    height: 600px !important;
+}
+.tall .swiper-slide img{
+    object-fit: contain !important;
+    width: 100% !important;
+    height: 600px !important;
 }
 
 .gallery p{
