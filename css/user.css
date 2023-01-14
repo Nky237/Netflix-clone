@@ -95,17 +95,7 @@ nav ul li a{
     color: white;
     
 }
-/* .posi{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
-    position: absolute;
-    top: -190px;
-} */
 
-
-
-/* .swiper-slide{
-    width: 20%;
-} */
 .swiper-button-prev, .swiper-button-next{
     color: white !important;
     font-weight: 900;
@@ -115,13 +105,18 @@ nav ul li a{
     padding-right: 20px;
 }
 
+
 /* SWIPER */
 .swiper{
     width: 100%;
     background-color: black;
+    margin-left: 130px;
    
     
     
+}
+.swiper.mySwiper{
+    padding-left: 30px;
 }
 .swiper p{
     padding: 10px 0;
@@ -144,13 +139,7 @@ nav ul li a{
     height: 600px !important;
 }
 
-.gallery p{
-    margin: 0 30px;
-}
-.land-pic.dot img{
-    width: 15%;
-    height: 160px;
-}
+
 /* FOOTER */
 footer{
     background-color: black;
