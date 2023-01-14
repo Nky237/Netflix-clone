@@ -9,7 +9,6 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./assets/logo.svg"  sizes="32x32">
-   <!-- NETFLIX FONT -->
 
     <!-- CSS LINKING -->
     <link rel="stylesheet" href="./css/index.css">
@@ -21,11 +20,11 @@
          <section class="hero">
             <!-- nav -->
             <nav>
-                <figure>
+                <figure class="logo">
                     <img src="./assets/logo.svg" alt="">
                 </figure>
                 <div class="nav2">
-                    <div class="icon-tab">
+                    <div class="icon-tab nav-link">
                         <i class="fa fa-globe"></i>
                         <select name="" id="">
                             <option value="English">English</option>
@@ -35,8 +34,12 @@
                             <option value="English">swahili</option>
                         </select>
                     </div>
-                    <button type="submit"><a href="./form.html">Sign In</a></button>
+                    <button type="submit" class="nav-link"><a href="./form.html">Sign In</a></button>
                 </div>
+                <div class="harmburger">
+                    <i class="fa fa-bars"></i>
+                </div>
+
             </nav>
             <main class="text">
                <h1>Unlimited movies, TV shows and more.</h1> 
@@ -210,5 +213,6 @@
    </div> 
 
    <script src="./js/index.js"></script>
+  
 </body>
 </html>
