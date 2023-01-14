@@ -17,6 +17,8 @@ a{
 .container{
     display: grid;
     font-family: 'Poppins', sans-serif;
+    max-width: 100% !important;
+
 }
 .container >section{
     border-bottom: 6px solid #222222;
@@ -243,6 +245,9 @@ footer main{
 }
 
 @media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
     .container.hero{
         height: 100vh;
         line-height: 3rem;
@@ -256,10 +261,10 @@ footer main{
         line-height: 2.5rem;
     }
     .text p{
-        font-size: 22px;
+        font-size: 20px;
     }
     .text small{
-        font-size: 15px;
+        font-size: 12px;
     }
     .text input{
         width: 200px;
