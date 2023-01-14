@@ -64,16 +64,22 @@ nav button{
     justify-content: center;
     align-items: center;
     height: 500px;
-    line-height: 2rem;
+    line-height: 3rem;
     font-weight: 800;
     
 }
 .text h1{
-    font-size: 40px;
+    font-size: 75px;
     text-align: center;
-    width: 25%;
+    width: 52%;
     font-weight: 800;
-    line-height: 3rem;
+    line-height: 5rem;
+}
+.text p{
+    font-size: 35px;
+}
+.text small{
+    font-size: 20px;
 }
 .text input{
     width: 400px;
@@ -107,8 +113,15 @@ display: flex;
     object-fit: contain;
 }
 .item-text{
-    width: 15%;
-    line-height: 1.7rem;
+    width: 30%;
+    
+}
+.item-text h1{
+    font-size: 50px;
+}
+.item-text p{
+    font-size: 26px;
+    padding-top: 2.2rem;;
 }
 /* FAQ SECTION */
 .faq{
@@ -125,6 +138,7 @@ display: flex;
 .faq-cont h1{
     text-align: center;
     padding: 20px 0;
+    font-size: 35px;
 }
 .faq-cont >div{
     border: 1px solid white;
@@ -141,10 +155,16 @@ display: flex;
     align-items: center;
     align-items: center;
     cursor: pointer;
+    font-size: 24px;
+}
+.quest{
+    font-size: 24px;
 }
 .faq-cont input{
     min-width: 400px;
     height: 50px;
+    padding: 19px;
+    font-size: 19px;
 }
 .faq-cont button{
     background-color: #E50914;
@@ -154,6 +174,7 @@ display: flex;
 }
 .faq-cont p{
     padding-top: 20px;
+    font-size: 20px;
 }
 /* ACCORDION */
 .is-open + .quest{
@@ -177,13 +198,14 @@ footer h3{
 }
 li{
     list-style: none;
-    padding: 10px 0;
+    padding: 7px 0;
 }
 footer main{
     width: 50%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    font-size: 22px;
     
 
 }
@@ -192,6 +214,25 @@ footer .icon-tab{
     border: 1px solid white;
     padding: 20px;
 }
+
+@media only screen and (max-width: 1280px){
+.text h1{
+    width: 80%;
+}
+.item-text{
+    width: 36%;
+}
+.item-text h1{
+    font-size: 39px;
+}
+.faq-cont{
+    width: 60%;
+}
+footer main{
+    width: 70%;
+}
+}
+
 @media only screen and (max-width: 600px){
     .container.hero{
         height: 100vh;
@@ -202,9 +243,18 @@ footer .icon-tab{
     }
     .text h1{
         width: 90%;
+        font-size: 40px;
+        line-height: 2.5rem;
+    }
+    .text p{
+        font-size: 22px;
+    }
+    .text small{
+        font-size: 15px;
     }
     .text input{
         width: 200px;
+        padding-left: 30px;
     }
     .item{
         flex-direction: column;
@@ -214,6 +264,13 @@ footer .icon-tab{
         width: 85%;
         padding: 30px 0;
     }
+    .item-text h1{
+        padding-top: 25px;
+        font-size: 44px;
+    }
+    .item-text p{
+        padding-top: 12px;
+    }
     .faq-cont{
         width: 90%;
     }
@@ -221,6 +278,7 @@ footer .icon-tab{
         flex-direction: column;
         width: 60%;
         margin: auto;
+        font-size: 22px;
     }
     footer .icon-tab{
         width: 180px;
