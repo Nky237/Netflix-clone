@@ -114,7 +114,7 @@ footer .icon-tab{
 }
 @media only screen and (max-width: 600px){
     form{
-        width: 85%;
+        width: 90%;
     }
     footer main{
         flex-direction: column;
