@@ -210,13 +210,17 @@ footer main{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    
+    color: #737373;
 
 }
 footer .icon-tab{
     margin: 20px 0px 10px 0;
-    border: 1px solid white;
+    border: 1px solid #737373;;
     padding: 20px;
+   
+}
+footer .icon-tab select{
+    color: #737373;;
 }
 
 @media only screen and (max-width: 1280px){
@@ -234,6 +238,7 @@ footer .icon-tab{
 }
 footer main{
     width: 70%;
+    color: #737373;
 }
 }
 
