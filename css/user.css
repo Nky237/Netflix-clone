@@ -248,16 +248,34 @@ footer .icon-tab{
     
 }
 @media only screen and (max-width:500px){
+    .container{
+        overflow-x: hidden;
+    }
     .swiper-slide{
         margin: 0;
     }
-    .swiper-slide{
-        margin: auto;
+    .swiper{
+
+        margin-left: 0px !important;
+       
+        
+        
     }
+    .swiper.mySwiper{
+        padding-left: 10px;
+        ;
+    }
+    
     .swiper-slide img{
-        width: 90%;
+        width: 70%;
     }
     .swiper-wrapper{
         text-align: center;
     }
+    .out{
+        width: 50px;
+    }
+    /* .harmburger{
+        display: none;
+    } */
 }
