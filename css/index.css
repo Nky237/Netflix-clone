@@ -438,6 +438,9 @@ footer li{
     .item-img{
         height: 150px;
     }
+    .item-text h1{
+        padding-top: 30px !important;
+    }
     .accord{
         align-items: center !important;
     }
