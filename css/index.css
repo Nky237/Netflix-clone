@@ -183,7 +183,7 @@ display: flex;
     width: 150px;
 }
 .faq-cont p{
-    padding-top: 20px;
+    padding-top: 14px;
     font-size: 20px;
 }
 /* ACCORDION */
@@ -388,6 +388,9 @@ footer main{
     width: 300px;
     margin-bottom: 10px;
 }
+.item{
+    gap: 0;
+}
 
 .item-text h1{
     font-size: 20px;
@@ -431,6 +434,18 @@ footer li{
         width: 100%;
         padding: 0 9px;
         font-size: 7px;
+    }
+    .item-img{
+        height: 150px;
+    }
+    .accord{
+        align-items: center !important;
+    }
+    .accord p{
+        padding: 2px 0;
+    }
+    .accord i{
+        font-size: 20px;
     }
 
 }
