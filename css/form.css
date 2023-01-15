@@ -89,7 +89,7 @@ footer h3{
     margin: auto;
     padding: 20px 0;
     width: 50%;
-    color: white;
+    color: #737373;
 }
 li{
     list-style: none;
@@ -97,7 +97,7 @@ li{
     
 }
 li a{
-    color: #737373;;
+    color: #737373;
 }
 footer main{
     width: 50%;
@@ -109,15 +109,43 @@ footer main{
 }
 footer .icon-tab{
     margin: 20px 0px 10px 0;
-    border: 1px solid white;
+    border: 1px solid #737373;;
     padding: 20px;
+}
+footer .icon-tab i{
+    color: #737373;
+    font-size: 24px;
+}
+footer .icon-tab select{
+    color: #737373;
+    font-size: 24px;
 }
 @media only screen and (max-width: 600px){
     form{
-        width: 90%;
+        width: 95%;
+        margin-top: 10px;
+    }
+    .logo img{
+        width: 120px;
+        height: 40px;
+    }
+    .form-cont{
+        width: 92%;
+    }
+    footer h3{
+        width: 100%;
+        text-align: center;
     }
     footer main{
         flex-direction: column;
         width: 60%;
+    }
+    footer .icon-tab i{
+        color: #737373;
+        font-size: 17px;
+    }
+    footer .icon-tab select{
+        color: #737373;
+        font-size: 17px;
     }
 }
