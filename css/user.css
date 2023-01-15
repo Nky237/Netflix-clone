@@ -229,12 +229,25 @@ footer .icon-tab{
     }
 }
 @media only screen and (max-width: 600px){
+    .harmburger i{
+        font-size: 26px !important;
+    }
+    .logo{
+        width: 120px;
+        height: 30px;
+    }
     .text{
         width: 90%;
+        padding-left: 12px;
+        padding-right: 2px;
+    }
+    .hero p{
+        font-size: 18px;
+        
     }
     footer main{
         flex-direction: column;
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
     footer .icon-tab{
@@ -273,7 +286,7 @@ footer .icon-tab{
         text-align: center;
     }
     .out{
-        width: 50px;
+        width: 250px;
     }
     /* .harmburger{
         display: none;
