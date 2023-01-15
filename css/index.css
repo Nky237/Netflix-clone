@@ -378,14 +378,14 @@ footer main{
 
 }
 .text-btn input{
-    width: 300px !important;
+    width: 300px;
     margin-bottom: 10px;
 }
 .text-btn button{
     width: 120px;
 }
 .faq-cont input{
-    width: 300px !important;
+    width: 300px;
     margin-bottom: 10px;
 }
 
@@ -409,4 +409,25 @@ text-align: center;
 footer li{
     font-size: 15px;
 }
+}
+@media only screen and (max-width: 380px){
+    .container .hero{
+        height: 700px;
+    }
+    .text h1{
+        font-size: 27px;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .text-btn input{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .text small{
+        width: 100%;
+        padding: 0 9px;
+        font-size: 7px;
+    }
+.faq
+
 }
