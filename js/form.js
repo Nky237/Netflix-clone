@@ -7,7 +7,7 @@ let btn = document.querySelector('.form-btn')
 const regex =  /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     btn.addEventListener('click', (e)=>{
     if(email.value === ''){
-        error.innerHTML = 'Email or name is required!';
+        error.innerHTML = 'Email is required!';
 		email.style.borderColor = 'red'
 		email.focus()
 		e.preventDefault()
