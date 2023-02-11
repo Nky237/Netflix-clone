@@ -102,7 +102,7 @@ li a{
     color: #737373;
 }
 footer main{
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -112,7 +112,7 @@ footer main{
 footer .icon-tab{
     margin: 20px 0px 10px 0;
     border: 1px solid #737373;;
-    padding: 20px;
+    padding: 10px;
 }
 footer .icon-tab i{
     color: #737373;

@@ -60,10 +60,15 @@ nav button{
     height: 50px;
     width: 90px;
     padding: 0 5px;
+    transition: 0.5s all;
+}
+nav button:hover{
+    background-color: #84050c;
 }
 nav button a{
-    font-size: 20px;
+    font-size: 18px;
 }
+
 /* TEXT SECTION */
 .text{
     color: white;
@@ -77,18 +82,18 @@ nav button a{
     
 }
 .text h1{
-    font-size: 67px;
+    font-size: 65px;
     text-align: center;
     width: 52%;
     font-weight: 800;
     line-height: 5rem;
 }
 .text p{
-    font-size: 35px;
+    font-size: 30px;
     
 }
 .text small{
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 20px;
 }
 .text input{
@@ -127,10 +132,10 @@ display: flex;
     
 }
 .item-text h1{
-    font-size: 40px;
+    font-size: 34px;
 }
 .item-text p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 1rem;;
 }
 /* FAQ SECTION */
@@ -184,7 +189,7 @@ display: flex;
 }
 .faq-cont p{
     padding-top: 14px;
-    font-size: 20px;
+    font-size: 15px;
 }
 /* ACCORDION */
 .is-open + .quest{
@@ -216,18 +221,18 @@ li{
     padding: 7px 0;
 }
 footer main{
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 15px;
     color: #737373;
 
 }
 footer .icon-tab{
     margin: 20px 0px 10px 0;
     border: 1px solid #737373;;
-    padding: 20px;
+    padding: 10px;
    
 }
 footer .icon-tab select{

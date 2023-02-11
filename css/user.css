@@ -34,6 +34,10 @@ nav ul{
 }
 nav ul li a{
     color: white;
+    transition: 0.5s all;
+}
+nav ul li a:hover{
+    color: red;
 }
 .nav-menu{
     display: flex;
@@ -42,8 +46,10 @@ nav ul li a{
     
 }
 .end{
-    width: 20%;
+    width: 27%;
     padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 .harmburger{
     padding-right: 50px;
@@ -67,7 +73,7 @@ nav ul li a{
     justify-content: center;
 }
 .text{
-    width: 30%;
+    width: 40%;
     padding: 40px 30px 0 30px;
 }
 .text p{
@@ -156,7 +162,7 @@ footer li{
     padding: 10px 0;
 }
 footer main{
-    width: 50%;
+    width: 65%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -167,6 +173,11 @@ footer .icon-tab{
     margin: 20px 0px 10px 0;
     border: 1px solid white;
     padding: 20px;
+}
+@media only screen and (max-width: 1024px){
+.text{
+    width: 60%;
+}
 }
 @media only screen and (max-width: 1000px)
 {
@@ -230,6 +241,9 @@ footer .icon-tab{
     .nav-menu.active{
         left: 0;
     
+    }
+    .text{
+        width: 90%;
     }
 }
 @media only screen and (max-width: 600px){
